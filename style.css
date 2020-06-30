@@ -1,46 +1,179 @@
+/* Want to make parent element of img display:flex to center image 
+
+cannot publish site/link is broken
+
+nav bar shifts left when on about page 
+
+contact links, use flex direction and justify content flex start?
+
+
+
+
+
+
+*/
+
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  padding: 0;
   margin: 0;
 }
 
+/* all pages */
 h1 {
-  font-size: 45px;
-  display: flex;
-  justify-content: start;
+  font-size: 50px;
   padding: 50px;
-  margin-top: 50px;
-  margin-left: 60px;
-  width: 100%;
-}
-.headshot,
-.headline {
-  text-align: center;
-  display: block;
-  margin-left: auto;
+  margin-top: 40px;
   margin-right: auto;
-  width: 50%;
 }
-a {
+
+nav a {
   text-decoration: none;
-  padding: 50px;
+  padding: 10px 50px 10px 50px;
   color: black;
   font-size: 22px;
 }
 .navigation {
   display: flex;
   justify-content: center;
-  margin-bottom: -40px;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
+  background-color: white;
+  height: 50px;
+}
+
+/* main */
+
+.mainContent {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 30px;
+  font-size: 15px;
+}
+
+.headshot img {
+  position: relative;
+  left: 200px;
+  top: 285px;
+}
+
+.header {
+  position: relative;
+  margin-left: 70px;
+  top: 80px;
 }
 
 /* about */
 .bio {
-  text-align: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
+  padding: 50px;
+  font-size: 20px;
+}
+
+/* contact */
+
+.contactLinks {
+  text-align: left;
+  list-style-type: none;
   width: 50%;
+  margin-left: 40%;
+  position: relative;
+  top: -85px;
+}
+.contactLinks a {
+  text-decoration: none;
+
+  color: black;
+  font-size: 22px;
+}
+.contactLinks li {
+  padding: 5px;
+}
+
+/* portfolio */
+
+.quizProject {
+  display: flex;
+  padding: 60px;
+}
+.quizPic {
+  max-width: 300px;
+  border: solid 1px gray;
+}
+
+.quizBio {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.quizLinks a {
+  padding: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .navigation {
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+  }
+
+  nav a {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  /* main */
+
+  .header {
+    top: -90px;
+  }
+
+  .headshot img {
+    position: relative;
+    left: 200px;
+    top: 240px;
+  }
+
+  .headline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  /* about */
+  /* portfolio */
+  .quizProject {
+    flex-direction: column;
+    align-items: center;
+  }
+  .quizPic {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* contact */
+  .contactLinks {
+    text-align: left;
+    list-style-type: none;
+    width: 50%;
+    margin-left: 40%;
+    position: relative;
+    top: -20px;
+  }
 }
