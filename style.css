@@ -190,7 +190,7 @@ font-family: 'IBM Plex Mono', monospace;
 
   .header {
     top: 90px;
-    /* left: -80px; */
+    left: -80px;
     
   }
 
