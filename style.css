@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -8,7 +7,7 @@
 /* all pages */
 
 body {
-  background-color: #fde9a6;
+  background-color: white;
 }
 
 h1 {
@@ -16,6 +15,9 @@ h1 {
   padding: 50px;
   margin-top: 40px;
   margin-right: auto;
+  color: rgb(255, 142, 142);
+   font-family: 'Poppins', sans-serif;
+
 }
 
 nav a {
@@ -24,12 +26,13 @@ nav a {
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   color: #002aff;
+  background-color: white;
    
 
 }
 
 nav a:hover {
-  color: #b93248;
+  color: rgb(255, 142, 142);
 
 }
 .navigation {
@@ -46,7 +49,9 @@ nav a:hover {
 /* main */
 
 .accent {
-color:#002aff ;}
+color:rgb(250, 107, 41);
+padding: 20px;
+}
 
 .mainContent {
   max-width: 800px;
@@ -59,25 +64,23 @@ color:#002aff ;}
   margin-right: auto;
   font-family: "Roboto", sans-serif;
 
-  width: 60%;
-  padding: 30px;
-  font-size: 15px;gs
-
-  line-height: 20px;
+width: 60%;
+  font-size: 15px;
+line-height: 20px;
   
 }
 
 .headshot img {
   position: relative;
-
+  max-width: 350px;
   left: 200px;
-  top: 285px;
+  top: 200px;
 }
 
 .header {
   position: relative;
   margin-left: 70px;
-  top: 80px;
+  top: 50px;
 }
 
 /* about */
@@ -88,7 +91,6 @@ color:#002aff ;}
   padding: 50px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
-  color: #b93248;
   line-height: 25px ;
 }
 
@@ -107,7 +109,7 @@ color:#002aff ;}
   border-bottom: solid 1px #002aff;
   color: black;
   font-size: 22px;
- font-family: 'Inconsolata', monospace;
+font-family: 'IBM Plex Mono', monospace;
    color: #002aff ;
 
 }
@@ -115,7 +117,7 @@ color:#002aff ;}
   padding: 5px;
 }
 .contactLinks a:hover {
-  color: #b93248;
+  color: rgb(255, 142, 142);
 
 }
 /* portfolio */
@@ -123,6 +125,7 @@ color:#002aff ;}
 .quizBio h2 {
   font-size: 20px;
   line-height: 30px;
+  color:rgb(250, 107, 41)
   
 }
 
@@ -136,7 +139,7 @@ color:#002aff ;}
 }
 
 .quizPic:hover {
-  border: solid 1px #b93248;
+  border: solid 1px #rgb(255, 142, 142);
 
 }
 
@@ -157,13 +160,13 @@ color:#002aff ;}
   padding: 15px;
   font-size: 15px;
   color: #002aff;
-   font-family: 'Inconsolata', monospace;
+font-family: 'IBM Plex Mono', monospace;
 
   
 }
 
 .quizLinks a:hover {
-  color: #b93248;
+  color: rgb(255, 142, 142);
 
 }
 
@@ -186,9 +189,12 @@ color:#002aff ;}
   /* main */
 
   .header {
-    top: 50px;
+    top: 90px;
     left: -80px;
+    
   }
+
+ 
 
   .headshot img {
     position: relative;
@@ -202,7 +208,7 @@ color:#002aff ;}
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 10px;
+    padding: 45px;
     font-size: 15px;
   }
 
