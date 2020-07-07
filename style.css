@@ -139,7 +139,7 @@ font-family: 'IBM Plex Mono', monospace;
 }
 
 .quizPic:hover {
-  border: solid 1px #rgb(255, 142, 142);
+  border: solid 1px rgb(255, 142, 142);
 
 }
 
@@ -189,8 +189,9 @@ font-family: 'IBM Plex Mono', monospace;
   /* main */
 
   .header {
-    top: 90px;
-    left: -80px;
+    top: 90px;gs
+
+    left: -10px;
     
   }
 
