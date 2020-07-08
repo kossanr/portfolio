@@ -189,9 +189,10 @@ font-family: 'IBM Plex Mono', monospace;
   /* main */
 
   .header {
-    top: 90px;gs
+    top: 60px;
+    left: -80px;
 
-    left: -10px;
+   
     
   }
 
@@ -200,8 +201,8 @@ font-family: 'IBM Plex Mono', monospace;
   .headshot img {
     position: relative;
     left: 90px;
-    top: 230px;
-    width: 90%;
+    top: 200px;
+    width: 50%;
     max-width: 250px;
   }
 
@@ -209,7 +210,7 @@ font-family: 'IBM Plex Mono', monospace;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 45px;
+    padding: 10px;
     font-size: 15px;
   }
 
